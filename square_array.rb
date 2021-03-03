@@ -7,5 +7,6 @@
 #  square_array
 #end
 
-def square_array.collect{|i| i ** 2}
+def square_array(array)
+  array.collect{|i| i ** 2}
 end
